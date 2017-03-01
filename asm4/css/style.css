@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/*
+Student: Brandon Nguyen
+Professor: George Cooke
+Course: CTS2857C
+File: style.css
+*/
+
+/* Header */
+header  h1 {
+  color: #FFFF00;
+  background-color: #000000;
+  margin: 2% 5%;
+  padding: 10px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+  font-weight: 800;
+  font-size: xx-large;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+/* Footer */
+footer  p {
+  color: #FFFFFF;
+  background-color: #000000;
+  margin: 2% 5%;
+  padding: 10px;
+  font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+  font-variant: small-caps;
+  font-weight: 600;
+  font-size: large;
+  text-align: center;
+  letter-spacing: 5px;
+  word-spacing: 50%;
+}
+/* Title */
+.title {
+  color: #FF0000;
+  font-family: Verdana, Arial, sans-serif;
+  font-style: oblique;
+  font-weight: 900;
+  font-size: x-large;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -5px;
+  word-spacing: 10px;
+  
+}
+/* Content */
+.content {			
+	background-color: #82CAFA;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 30px;
+	width: 50em;
+}
+/* Error */
+.Error {			
+	color: red;
+}
